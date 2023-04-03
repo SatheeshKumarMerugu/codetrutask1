@@ -1,0 +1,954 @@
+/* Universal Styling ................................................................................................. */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+/* Total Page Styling................................................................................................ */
+.whole-page {
+  background: #dae0e6 0% 0% no-repeat padding-box;
+  padding-bottom: 30px;
+}
+/* Section-1 Styling............................................................................................  */
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+/* Card-1 Styling............ */
+.card-1 {
+  height: 186px;
+  width: 335px;
+  border-radius: 15px;
+  opacity: 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 0px 10px;
+}
+.contentInner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 136px;
+  width: 139px;
+}
+.circleInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  height: 107px;
+  width: 107px;
+  background-size: 100% 100%, 50% 50%, 70% 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(white, white),
+    linear-gradient(30deg, #f4dfcc 100%, lightgrey 0%),
+    linear-gradient(120deg, #fa9583 100%, lightgrey 0%),
+    linear-gradient(300deg, #4097aa 1000%, lightgrey 0%),
+    linear-gradient(210deg, green 36%, lightgrey 30%);
+  background-position: center center, left top, right top;
+  background-origin: content-box, border-box, border-box, border-box, border-box;
+  background-clip: content-box, border-box, border-box, border-box, border-box;
+}
+.card-1-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card-1-2 {
+  height: 40px;
+  width: 335px;
+  display: flex;
+  gap: 15px;
+}
+.card-1-2 p {
+  text-align: center;
+  font: normal normal normal 11px/17px Poppins;
+  letter-spacing: 0px;
+  color: #6d6d6d;
+  opacity: 1;
+}
+.square {
+  width: 11px;
+  height: 11px;
+  background: #4097aa 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+.square-2 {
+  width: 11px;
+  height: 11px;
+  background: #fa9583 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border-radius: 2px;
+  opacity: 1;
+}
+.square-3 {
+  width: 11px;
+  height: 11px;
+  background: #f4dfcc 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border-radius: 2px;
+  opacity: 1;
+}
+.bottom-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bottom-2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bottom-3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Card-2 Styling................................... */
+.card-2 {
+  height: 186px;
+  width: 335px;
+  border-radius: 15px;
+  opacity: 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 0px 10px;
+}
+.contentInner2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.content2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.circle2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 136px;
+  width: 139px;
+}
+.circleInner2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  height: 107px;
+  width: 107px;
+  background-size: 100% 100%, 50% 50%, 70% 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(white, white),
+    linear-gradient(30deg, #f4dfcc 100%, lightgrey 0%),
+    linear-gradient(120deg, #fa9583 100%, lightgrey 0%),
+    linear-gradient(300deg, #4097aa 1000%, lightgrey 0%),
+    linear-gradient(210deg, green 36%, lightgrey 30%);
+  background-position: center center, left top, right top;
+  background-origin: content-box, border-box, border-box, border-box, border-box;
+  background-clip: content-box, border-box, border-box, border-box, border-box;
+}
+.card-2-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card-2-2 {
+  height: 40px;
+  width: 335px;
+  display: flex;
+  gap: 35px;
+  padding: 20px;
+}
+.card-2-2 p {
+  text-align: center;
+  font: normal normal normal 11px/17px Poppins;
+  letter-spacing: 0px;
+  color: #6d6d6d;
+  opacity: 1;
+}
+.square-2-1 {
+  width: 11px;
+  height: 11px;
+  background: #fa9583 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+.square-2-2 {
+  width: 11px;
+  height: 11px;
+  background: #4097aa 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border-radius: 2px;
+  opacity: 1;
+}
+.bottom-2-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bottom-2-2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Card-3 Styling...................................... */
+.card-3 {
+  height: 186px;
+  width: 335px;
+  border-radius: 15px;
+  opacity: 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 0px 10px;
+}
+.contentInner3 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.content3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.circle3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 136px;
+  width: 139px;
+}
+.circleInner3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  height: 107px;
+  width: 107px;
+  background-size: 100% 100%, 50% 50%, 70% 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(white, white),
+    linear-gradient(30deg, #f4dfcc 100%, lightgrey 0%),
+    linear-gradient(120deg, #fa9583 100%, lightgrey 0%),
+    linear-gradient(300deg, #4097aa 1000%, lightgrey 0%),
+    linear-gradient(210deg, green 36%, lightgrey 30%);
+  background-position: center center, left top, right top;
+  background-origin: content-box, border-box, border-box, border-box, border-box;
+  background-clip: content-box, border-box, border-box, border-box, border-box;
+}
+.card-3-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card-3-2 {
+  height: 40px;
+  width: 335px;
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+.card-3-2 p {
+  text-align: center;
+  font: normal normal normal 11px/17px Poppins;
+  letter-spacing: 0px;
+  color: #6d6d6d;
+  opacity: 1;
+}
+.square-3-1 {
+  width: 11px;
+  height: 11px;
+  background: #fa9583 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+.square-3-2 {
+  width: 11px;
+  height: 11px;
+  background: #f4dfcc 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border-radius: 2px;
+  opacity: 1;
+}
+.square-3-3 {
+  width: 11px;
+  height: 11px;
+  background: #4097aa 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border-radius: 2px;
+  opacity: 1;
+}
+.bottom-3-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bottom-3-2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bottom-3-3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Card-4 Styling................................ */
+.card-4 {
+  height: 186px;
+  width: 335px;
+  border-radius: 15px;
+  opacity: 1;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 0px 10px;
+}
+.contentInner4 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.content4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.circle4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 136px;
+  width: 139px;
+}
+.circleInner4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  height: 107px;
+  width: 107px;
+  background-size: 100% 100%, 50% 50%, 70% 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(white, white),
+    linear-gradient(30deg, #f4dfcc 100%, lightgrey 0%),
+    linear-gradient(120deg, #fa9583 100%, lightgrey 0%),
+    linear-gradient(300deg, #4097aa 1000%, lightgrey 0%),
+    linear-gradient(210deg, green 36%, lightgrey 30%);
+  background-position: center center, left top, right top;
+  background-origin: content-box, border-box, border-box, border-box, border-box;
+  background-clip: content-box, border-box, border-box, border-box, border-box;
+}
+.card-4-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card-4-2 {
+  height: 40px;
+  width: 335px;
+  display: flex;
+  gap: 15px;
+}
+.card-4-2 p {
+  text-align: center;
+  font: normal normal normal 11px/17px Poppins;
+  letter-spacing: 0px;
+  color: #6d6d6d;
+  opacity: 1;
+}
+.square-4-1 {
+  width: 11px;
+  height: 11px;
+  background: #fa9583 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+.square-4-2 {
+  width: 11px;
+  height: 11px;
+  background: #f4dfcc 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border-radius: 2px;
+  opacity: 1;
+}
+.square-4-3 {
+  width: 11px;
+  height: 11px;
+  background: #4097aa 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  border-radius: 2px;
+  opacity: 1;
+}
+.bottom-4-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bottom-4-2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bottom-4-3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Section-2 Styling...................................................................................................  */
+.section-2 {
+  /* border: 5px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+  gap: 15px;
+}
+/* Part-1 Styling ........................... */
+.section-2-1 {
+  height: 207px;
+  width: 683px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.section-2-1Child-1 {
+  gap: 15px;
+}
+
+.progress {
+  height: 20px;
+  width: 630px;
+  background-color: #fa9583;
+  border-radius: 10px;
+}
+.progressInner {
+  height: 20px;
+  width: 446px;
+  background-color: #4097aa;
+  border-radius: 10px;
+}
+.section-2-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-2-1Child-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.odTri {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #fa9583;
+  background: transparent url("img/Icon ionic-md-arrow-dropdown.png") 0% 0%
+    no-repeat padding-box;
+}
+.odContent .hc {
+  text-align: center;
+  font: normal normal normal 16px/25px Poppins;
+  color: #ce4141;
+  opacity: 0.75;
+}
+
+.hide {
+  position: absolute;
+  top: 350px;
+  left: 420px;
+  width: 282px;
+  height: 142px;
+  /* border: 2px solid green; */
+  background-color: white;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: none;
+}
+.odContent {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 60px;
+  padding-top: 8px;
+
+  /* padding: 10px 4px 6px 4px; */
+  border-radius: 5px;
+}
+.ovd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.odTri:hover + .hide {
+  /* background-color: red; */
+  /* border-left: 12px solid transparent; */
+  /* border-right: 12px solid transparent; */
+  /* border-top: 12px solid #fa9583; */
+  /* transition: ease-in-out 5s linear; */
+  display: block;
+}
+
+.overdue,
+.current {
+  margin-top: 10px;
+  width: 313px;
+  height: 80px;
+  border-top: #b6b1b1 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#tr {
+  font: normal normal medium 16px/25px Poppins;
+  color: #323232;
+  opacity: 1;
+}
+#tu {
+  font: normal normal normal 14px/21px Poppins;
+  color: #707070;
+  opacity: 0.5;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#cr {
+  text-align: center;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #6ab187;
+  opacity: 1;
+}
+.price {
+  text-align: center;
+  font: normal normal normal 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+#od {
+  text-align: center;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #ea6a47;
+  opacity: 1;
+}
+.line {
+  /* margin-top: 10px; */
+  height: 40px;
+  width: 1px;
+  background-color: #b6b1b1;
+}
+
+/* Part-2 Styling .................................. */
+.section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.section-2-2 {
+  height: 207px;
+  width: 683px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.section-2-2Child-1 {
+  gap: 15px;
+}
+
+.progress-2 {
+  height: 20px;
+  width: 630px;
+  background-color: #fa9583;
+  border-radius: 10px;
+}
+.progressInner-2 {
+  height: 20px;
+  width: 446px;
+  background-color: #4097aa;
+  border-radius: 10px;
+}
+.section-2-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-2-2Child-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paid,
+.balance {
+  margin-top: 10px;
+  width: 313px;
+  height: 80px;
+  border-top: #b6b1b1 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+/* .paid {
+  border-right: #b6b1b1 2px solid;
+  border-top-right-radius: 10px white;
+} */
+#tbp {
+  font: normal normal medium 16px/25px Poppins;
+  color: #323232;
+  opacity: 1;
+}
+#tu-2 {
+  font: normal normal normal 14px/21px Poppins;
+  color: #707070;
+  opacity: 0.5;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#pd {
+  text-align: center;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #6ab187;
+  opacity: 1;
+}
+.price {
+  text-align: center;
+  font: normal normal normal 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+#bl {
+  text-align: center;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #ea6a47;
+  opacity: 1;
+}
+
+/* Section-3 styling.......................................................................................... */
+/* Chart............................................... */
+
+/* Section-3 styling....... ......................... */
+.section-3 {
+  /* background-color: #ffffff; */
+  /* height: 533px; */
+  /* width: 1390px; */
+  /* margin-left: 65px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #ffffff;
+  margin: 20px 68px 0 68px;
+  border-radius: 7px;
+}
+.section-3-1 {
+  background-color: #ffffff;
+  padding: 50px 0 0 0;
+
+  /* padding: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+}
+.ti-box {
+  height: 10px;
+  width: 10px;
+  background-color: #4097aa;
+}
+.te-box {
+  height: 10px;
+  width: 10px;
+  background-color: #fa9583;
+}
+.total {
+  position: relative;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.ti,
+.te {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #070606;
+  background: transparent url("img/Icon ionic-md-arrow-dropdown.png") 0% 0%
+    no-repeat padding-box;
+}
+.ty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.section-3-1 p {
+  text-align: left;
+  font: normal normal 600 16px/25px;
+  color: #323232;
+}
+
+/* Chart Styling .......... */
+.section-3-2 {
+  /* border: 2px solid green; */
+  background-color: #ffffff;
+}
+.line-1 {
+  width: 1200px;
+  height: 1px;
+  background-color: #c7c3c3;
+}
+.vertical-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.vertical-1 p {
+  text-align: left;
+  font: normal normal normal 14px/21px;
+  color: #707070;
+}
+
+.chart {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  gap: 50px;
+  /* border: 2px solid red; */
+  position: relative;
+}
+.months {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 62px;
+  margin-top: -30px;
+  padding-bottom: 30px;
+}
+
+.pole-1 {
+  height: 275px;
+  width: 19px;
+  background-color: #fa9583;
+  position: absolute;
+  top: 127px;
+  left: 130px;
+  border-radius: 10px;
+}
+.pole-2 {
+  height: 195px;
+  width: 19px;
+  background-color: #4097aa;
+  position: absolute;
+  top: 206px;
+  left: 155px;
+  border-radius: 10px;
+}
+.pole-3 {
+  height: 290px;
+  width: 19px;
+  background-color: #fa9583;
+  position: absolute;
+  top: 113px;
+  left: 215px;
+  border-radius: 10px;
+}
+.pole-4 {
+  height: 180px;
+  width: 19px;
+  background-color: #4097aa;
+  position: absolute;
+  top: 222px;
+  left: 241px;
+  border-radius: 10px;
+}
+.pole-5 {
+  height: 275px;
+  width: 19px;
+  background-color: #fa9583;
+  position: absolute;
+  top: 127px;
+  left: 305px;
+  border-radius: 10px;
+}
+.pole-6 {
+  height: 130px;
+  width: 19px;
+  background-color: #4097aa;
+  position: absolute;
+  top: 272px;
+  left: 331px;
+  border-radius: 10px;
+}
+.pole-7 {
+  height: 295px;
+  width: 19px;
+  background-color: #fa9583;
+  position: absolute;
+  top: 107px;
+  left: 395px;
+  border-radius: 10px;
+}
+.pole-8 {
+  height: 222px;
+  width: 19px;
+  background-color: #4097aa;
+  position: absolute;
+  top: 180px;
+  left: 423px;
+  border-radius: 10px;
+}
+
+.pole-9 {
+  height: 230px;
+  width: 19px;
+  background-color: #fa9583;
+  position: absolute;
+  top: 172px;
+  left: 485px;
+  border-radius: 10px;
+}
+.pole-10 {
+  height: 180px;
+  width: 19px;
+  background-color: #4097aa;
+  position: absolute;
+  top: 222px;
+  left: 514px;
+  border-radius: 10px;
+}
+.pole-11 {
+  height: 295px;
+  width: 19px;
+  background-color: #fa9583;
+  position: absolute;
+  top: 107px;
+  left: 580px;
+  border-radius: 10px;
+}
+.pole-12 {
+  height: 270px;
+  width: 19px;
+  background-color: #4097aa;
+  position: absolute;
+  top: 132px;
+  left: 608px;
+  border-radius: 10px;
+}
+.pole-13 {
+  height: 285px;
+  width: 19px;
+  background-color: #fa9583;
+  position: absolute;
+  top: 118px;
+  left: 670px;
+  border-radius: 10px;
+}
+.pole-14 {
+  height: 270px;
+  width: 19px;
+  background-color: #4097aa;
+  position: absolute;
+  top: 132px;
+  left: 700px;
+  border-radius: 10px;
+}
+.months p {
+  font: normal normal normal 14px/21px;
+  color: #707070;
+}
+.tyHide {
+  position: absolute;
+  top: 510px;
+  left: 1220px;
+  width: 180px;
+  height: 84px;
+  /* border: 2px solid green; */
+  background-color: white;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 5px;
+  padding: 15px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  display: none;
+}
+.triangle:hover + .tyHide {
+  /* color: red; */
+  /* background-color: red; */
+  /* border-left: 12px solid transparent; */
+  /* border-right: 12px solid transparent; */
+  /* border-top: 12px solid #fa9583; */
+  /* transition: ease-in-out 5s linear; */
+  display: block;
+}
